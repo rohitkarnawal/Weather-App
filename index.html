@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="body">
+        <div class="card">
+            <div class="one">
+                
+                <i>
+                    <img src="/assets/cloudy.png" alt="">
+                </i>
+                <p class="today ">Now</p>
+                <h3 class="degree">-- <sup>o</sup>c</h3>
+                <p class="city">Search a city</p>
+                <div class="time">
+                    <i class="fa-solid fa-rainbow"></i>
+                    <input type="text" placeholder="Search for your city.">
+                </div>
+            </div>
+            <div class="two">
+                <img src="/assets/2cloud.png" alt="">
+                <p class="what">Weather: --</p>
+                <p class="percentage" id="cloud">....</p>
+            </div>
+            <div class="three">
+                <div class="innerThree">
+                    <div class="humidity">
+                        <p style="color:rgba(255, 255, 255, 0.7);">Humidity: --</p>
+                        <p style="color: white;" id="humidity"></p>
+                </div>
+                    <div class="wind">
+                        <p style="color:rgba(255, 255, 255, 0.7);">Wind: --</p>
+                        <p style="color: white;" id="windSpeed"></p>
+                    </div>
+                </div>
+                <div class="secondinnerthree">
+                     
+                     <div class="day day2">
+                         <p>Mon</p>
+                        <img src="/assets/cloud sun.png" alt="">
+                        <p class="intemp"> Cloudy</p>
+                     </div>
+                     <div class="day day3">
+                         <p>Tue</p>
+                        <img src="/assets/storm.png" alt="">
+                        <p class="intemp">Rainy</p>
+                     </div>
+                     <div class="day day4">
+                         <p>Wed</p>
+                        <img src="/assets/sun-ring-light-png.png" alt="">
+                        <p class="intemp">Sunny</p>
+                     </div>
+                     <div class="day day5">
+                         <p>Thu</p>
+                        <img src="/assets/2cloud.png" alt="">
+                        <p class="intemp">Cloudy</p>
+                     </div>
+                     <div class="day day6">
+                         <p>Fri</p>
+                        <img src="/assets/rainy.png" alt="">
+                        <p class="intemp">Rainy</p>
+                     </div>
+                     <div class="day day7">
+                         <p>Sat</p>
+                        <img src="/assets/cloud sun.png" alt="">
+                        <p class="intemp">Cloudy</p>
+                     </div>
+                     <div class="day day1">
+                        <p>Sun</p>
+                        <img src="/assets/2cloud.png" alt="">
+                        <p class="intemp">Cloudy</p>
+                     </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
